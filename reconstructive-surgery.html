@@ -2,7 +2,7 @@
 <html lang="en" class="wide wow-animation smoothscroll scrollTo">
 <head>
   <!-- Site Title-->
-  <title>Gallery</title>
+  <title>RECONSTRUCTIVE SURGERY</title>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -13,6 +13,8 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald%7CLato:400italic,400,700">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -56,13 +58,13 @@
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
                     <div class="rd-navbar-mobile-brand"><a href="index.html"><img width='203' height='70' class='img-responsive' src='images/new_logo_203_99.png' alt=''/></a></div>
-                    <!-- RD Navbar Nav-->
-                           <ul class="rd-navbar-nav">
+                                        
+                                         <ul class="rd-navbar-nav">
                         <li ><a  href="index.html"><span>Home</span></a>
                         </li>
                         <li ><a href="profil.html"><span>Profil</span></a>
                         </li>
-                        <li><a><span>Services</span></a>
+                        <li class="active" ><a><span>Services</span></a>
 							<ul class="rd-navbar-dropdown">
 							
 							     <li><a href="Genital-Surgery.html"><span class="text-middle">GENITAL SURGERY</span> </a> </li>
@@ -77,15 +79,26 @@
 								  
 							</ul>
                         </li>
-                        <li class="active" ><a href="gallery.html"><span>Gallery</span></a>
+                        <li><a href="gallery.html"><span>Gallery</span></a>
                         </li>
                         <li><a href="training.html"><span>Training</span></a>
                         </li>
                         <li><a href="contact.html"><span>Contact</span></a>
                         </li>
                       </ul>
+                   
                   </div>
                 </div>
+                <!--RD Navbar Search
+                <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-navbar-menu-wrap,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
+                  <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
+                    <div class="form-group">
+                      <label for="rd-navbar-search-form-input" class="form-label">Type and hit enter...</label>
+                      <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>
+                    </div>
+                    <div id="rd-search-results-live" class="rd-search-results-live"></div>
+                  </form>
+                </div>-->
               </div>
             </div>
           </nav>
@@ -94,117 +107,77 @@
       <!-- Modern Breadcrumbs-->
       <section class="breadcrumb-modern context-dark text-md-left">
         <div class="shell section-34 section-md-top-110 section-md-bottom-41">
-          <h1>Gallery</h1>
+          <h1>RECONSTRUCTIVE SURGERY</h1>
           <ul class="list-inline list-inline-arrows p offset-top-34 offset-md-top-70">
             <li><a href="index.html" class="text-primary">Home</a></li>
-            <li>Gallery
+            <li class="text-primary">Services
+            </li><li>reconstructive surgery
             </li>
           </ul>
         </div>
       </section>
-      <!-- Page Contents-->
-      <main class="page-content">
-        <!-- Classic Thumbnail-->
-        <!-- Portfolio Grid 3 columns-->
-        <section class="section-98 section-sm-110">
+      <!-- Page Content-->
+      <main class="page-content section-98 section-sm-top-85 section-sm-bottom-200">
+        <!--services-->
+        <section>
           <div class="shell">
             <div class="isotope-wrap">
               <div class="row">
                 <!-- Isotope Filters-->
-                <div class="col-lg-12">
-                  <div class="isotope-filters isotope-filters-horizontal">
+                <div class="col-lg-3">
+                  <div class="isotope-filters isotope-filters-vertical">
+                    <h4 class="text-uppercase isotope-filters-title offset-top-34"> </h4>
                     <ul class="list-inline list-inline-sm">
                       <li class="veil-md">
-                        <p>Choose your category:</p>
+                        <p>Choose your:</p>
                       </li>
                       <li class="section-relative">
-                        <button data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true" class="isotope-filters-toggle btn btn-sm btn-default">Filter<span class="caret"></span></button>
-                        <ul id="isotope-1" class="list-sm-inline isotope-filters-list">
-                          <li><a data-isotope-filter="*" data-isotope-group="gallery" href="#" class="active">All</a></li>
-                          <li><a data-isotope-filter="tab 1" data-isotope-group="gallery" href="#">tab 1</a></li>
-                          <li><a data-isotope-filter="tab 2" data-isotope-group="gallery" href="#">tab 2</a></li>
-                          <li><a data-isotope-filter="tab 3" data-isotope-group="gallery" href="#">tab 3</a></li>
+                        <button data-custom-toggle="isotope-1" data-custom-toggle-disable-on-blur="true" class="isotope-filters-toggle btn btn-sm btn-default">Service<span class="caret"></span></button>
+                        <ul id="isotope-1" class="list-sm-inline isotope-filters-list" >
+                         
+                        
+						 
+                          
+              
+
                         </ul>
                       </li>
                     </ul>
                   </div>
                 </div>
+
                 <!-- Isotope Content-->
-                <div class="col-lg-12 offset-top-34">
+                <div class="col-lg-9 offset-lg-top-0 offset-top-34">
                   <div data-isotope-layout="fitRows" data-isotope-group="gallery" class="isotope">
-                    <div data-photo-swipe-gallery="gallery" class="row">
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-01_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-01-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Forehead lift</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
+                    <div data-photo-swipe-gallery="gallery" class="row text-sm-left">
+                  
+				  
+	                     <div data-filter="" class="col-md-12 isotope-item">
+                        <h3></h3>
+                        <hr class="divider-custom hr-sm-left-2 text-java">
+                        <div class="offset-top-60">
+                          <div class="offset-top-30" style="margin-top: -49px;" >
+						    		                                                    
+                                           		
+						
+                        </div>
                       </div>
-                      <div data-filter="tab 3" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-02_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-02-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Facelift</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
+					  </div>
+					  
+					     
+	                     <div data-filter="" class="col-md-12 isotope-item">
+                        <h3></h3>
+                        <hr class="divider-custom hr-sm-left-2 text-java">
+                        <div class="offset-top-60"><img src="images/body/vaser1.jpg" style="width:870px;height: 440px;" alt="" class="img-responsive"/>
+                          <div class="offset-top-30 " style="margin-top: -490px;">
+                           		
+						 </div>
+                        </div>
                       </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-03_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-03-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Medical Care</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-04_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-04-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Ear Surgery</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 2" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-05_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-05-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Liposuction</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-06_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-06-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Cleft Lip</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-07_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-07-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Eyelid lift</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="800x1200" href="images/gallery/originals/gallery-08_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-08-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Stem Cell Facelift</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
-                      <div data-filter="tab 1" class="col-xs-12 col-sm-6 col-md-4 isotope-item"><a class="thumbnail-custom" data-photo-swipe-item="" data-size="1200x800" href="images/gallery/originals/gallery-09_original.jpg">
-                        <figure><img width="370" height="240" src="images/gallery/gallery-09-370x240.jpg" alt="">
-                          <figcaption class="thumbnail-custom-caption text-center">
-                            <h6 class="thumbnail-custom-title text-white">Laboratory analyses</h6>
-                            <hr class="divider divider-xs bg-java">
-                          </figcaption>
-                        </figure></a>
-                      </div>
+					  				  
+		
+				  
+				         
                     </div>
                   </div>
                 </div>
@@ -216,8 +189,6 @@
       <!-- Page Footer-->
       <!-- Default footer-->
       <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-lighter">
-
-
         <div class="shell-wide">
           <div class="inset-xl-left-30">
             <div class="range range-sm-center">
@@ -231,9 +202,8 @@
                       <div class="text-center text-lg-left">
                         <address class="contact-info reveal-sm-inline-block text-left">
                           <div class="p unit unit-spacing-xxs unit-horizontal">
-
                             <div class="unit-left"><span class="icon icon-xs icon-circle icon-gray-lighter mdi mdi-phone text-primary"></span></div>
-                            <div class="unit-body"><a href="tel:+212-522-398-689" class="text-gray-darker">+212-522-398-689</a><span class="text-gray-darker"><br/> </span><a href="tel:+212-661-050-523" class="text-gray-darker">+212-661-050-523</a></div>
+                            <div class="unit-body"><a href="tel:+212-522-398-689" class="text-gray-darker">+212-522-398-689</a><span class="text-gray-darker"><br/></span><a href="tel:+212-661-050-523" class="text-gray-darker">+212-661-050-523</a></div>
                           </div>
                           <div class="p unit unit-spacing-xxs unit-horizontal offset-top-16">
                             <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-primary"></span></div>
@@ -259,7 +229,7 @@
             </div>
           </div>
         </div>
-      </Footer>
+      </footer>
     </div>
     <!-- Global Mailform Output-->
     <div id="form-output-global" class="snackbars"></div>
@@ -299,6 +269,7 @@
       </div>
     </div>
     <!-- Java script-->
+    
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
   </body>
